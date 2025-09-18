@@ -62,3 +62,11 @@ function detail(fName,lName){
 }
 
 detail('Cristiano','Ronaldo')
+
+//Types of Functions 
+//Calculating values
+function square(number){
+    return number*number;
+}
+
+console.log(square(2))

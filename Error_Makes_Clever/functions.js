@@ -13,3 +13,12 @@ function add(){
 }
 
 add()
+
+
+//Exercise with parameters 
+function area(length,breadth){
+    result = length*breadth;
+    console.log(result);
+}
+
+area(10,20)

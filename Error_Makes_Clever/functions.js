@@ -22,3 +22,10 @@ function area(length,breadth){
 }
 
 area(10,20)
+
+
+//Return Type
+function sum(a,b){
+    return a+b;
+}
+console.log("The sum : " + sum(10,10));

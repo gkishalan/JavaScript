@@ -15,3 +15,17 @@ if(rain){
 else{
     console.log("Enjoy the sunshine");
 }
+
+
+//Question 2 
+light = 'yellow';
+
+if(light == 'red'){
+    console.log('Stop');
+}
+if(light == 'yellow'){
+    console.log('Get Ready');
+}
+if(light == 'green'){
+    console.log('Go')
+}

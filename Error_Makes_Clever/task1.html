@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task 1 </title>
 </head>
-<body>
+<body> 
     <input id="inputBox" onkeyup="updateResult()">
     <h1 id="result"></h1>
 </body>
 <script>
+    //Creating variable for inputbox,h1
     var inputbox = document.getElementById("inputBox")
     var result = document.getElementById("result")
 
+    //creating function and saving the inputboc value as reslut
     function updateResult(){
         result.textContent = inputbox.value
     }
